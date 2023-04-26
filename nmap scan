@@ -1,1 +1,2 @@
-nmap -sT -sV -p 1-65535 -oN scan_results.txt target_ip_address
+# nmap -sT -sV -p 1-65535 -oN scan_results.txt target_ip_address
+# nmap -sS -sU -sV -A -O -p 1-65535 -T4 -oA scan_results target_ip_address
