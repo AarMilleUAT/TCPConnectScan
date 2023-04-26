@@ -1,0 +1,1 @@
+nmap -sT -sV -p 1-65535 -oN scan_results.txt target_ip_address
